@@ -1,40 +1,25 @@
-Google ARCore SDK for Unity
+Food Analyzer AR 
 ===========================
-Copyright 2017 Google LLC.  All rights reserved.
+This project combines AI and AR to provide a playful mobile app that analyzes the food's composition in order
+to help consumers to make the best food choices for their health. Using those two promising technologies together provides an unique experience when it comes health care. Whenever you hesitate to eat some food, take out your phone and take a picture of the food ! Within a few milliseconds the app will display the nutrition facts of your captured food.
 
-This SDK provides native APIs for all of the essential AR features like motion
-tracking, environmental understanding, and light estimation. With these
-capabilities you can build entirely new AR experiences or enhance existing apps
-with AR features.
+This project uses Google ARCore to enable AR-display on food nutrition facts and TensorFlowSharp package which is a C#-based version of TensorFlow that can be used in Unity to embed trained models on mobile devices. The main project folder is in Assets/FoodAnalyzerAR.
 
 
-## Quick Start
+## Google ARCore
 
-See the [Getting Started with Unity](//developers.google.com/ar/develop/unity/getting-started) developer guide.
-
-
-## API Reference
-
-See the [ARCore SDK for Unity API Reference](//developers.google.com/ar/reference/unity).
+See the [Getting Started with Google ARCore](//developers.google.com/ar/develop/unity/getting-started) developer guide.
 
 
-## Release Notes
+## TensorflowSharp
 
-The SDK release notes are available on the
-[releases](//github.com/google-ar/arcore-unity-sdk/releases) page.
+See the [TensorflowSharp documentation](//https://github.com/llSourcell/Unity_ML_Agents/blob/master/docs/Using-TensorFlow-Sharp-in-Unity-(Experimental).md).
 
+## Install
+As the TensorFlowSharp package is large, you must manually download it and import it in Unity.
+Run the *get_packages.sh" script to automatically download and move the TensorflowSharp package in the main repo Packages folder
 
-## Terms & Conditions
-
-By downloading the ARCore SDK for Unity, you agree that the
-[Google APIs Terms of Service](//developers.google.com/terms/) governs your use
-thereof.
+NB : Please follow the TensorFlowSharp documentation to configure Unity.
 
 
-## User privacy requirements
-
-You must disclose the use of Google Play Services for AR (ARCore) and how it
-collects and processes data, prominently in your application, easily accessible
-to users. You can do this by adding the following text on your main menu or
-notice screen: "This application runs on [Google Play Services for AR](//play.google.com/store/apps/details?id=com.google.ar.core) (ARCore),
-which is provided by Google LLC and governed by the [Google Privacy Policy](//policies.google.com/privacy)".
+## Demo (SOON ...)
