@@ -17,7 +17,7 @@ See the [TensorflowSharp documentation](//https://github.com/llSourcell/Unity_ML
 
 ## Install
 As the TensorFlowSharp package is large, you must manually download it and import it in Unity.
-Run the *get_packages.sh" script to automatically download and move the TensorflowSharp package in the main repo Packages folder
+Run the *get_packages.sh* script to automatically download and move the TensorflowSharp package in the main repo Packages folder
 
 NB : Please follow the TensorFlowSharp documentation to configure Unity.
 
